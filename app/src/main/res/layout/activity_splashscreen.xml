@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#3f51aa"
+android:layout_gravity="center"
+android:id="@+id/lin_lay"
+android:gravity="center"
+android:orientation="vertical" >
+
+<ImageView
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:id="@+id/imageview_splash"
+    android:background="@mipmap/uestc_splash" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:paddingTop="50dp"
+        android:text="UESTC\nSERVICE"
+        android:id="@+id/textView_splash" />
+
+</LinearLayout>

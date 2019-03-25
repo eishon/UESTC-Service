@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_food_service"
+            android:title="Food Service" />
+        <item
+            android:id="@+id/nav_transport_service"
+            android:title="Transport Service" />
+        <item
+            android:id="@+id/nav_visa_psb"
+            android:title="VISA and PSB" />
+        <item
+            android:id="@+id/nav_health_service"
+            android:title="Health Service" />
+        <item
+            android:id="@+id/nav_education"
+            android:title="Education" />
+        <item
+            android:id="@+id/nav_holidays"
+            android:title="Holidays" />
+        <item
+            android:id="@+id/nav_job_info"
+            android:title="Job Info" />
+        <item
+            android:id="@+id/nav_group_activities"
+            android:title="Group and Activities" />
+        <item
+            android:id="@+id/nav_banks_finance"
+            android:title="Banks and Finance" />
+        <item
+            android:id="@+id/nav_tours_travels"
+            android:title="Tours and Travels" />
+        <item
+            android:id="@+id/nav_language"
+            android:title="Language" />
+        <item
+            android:id="@+id/nav_shopping"
+            android:title="Shopping" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about_uestc"
+                android:title="UESTC" />
+            <item
+                android:id="@+id/nav_about_soft"
+                android:title="Software" />
+        </menu>
+    </item>
+
+</menu>
